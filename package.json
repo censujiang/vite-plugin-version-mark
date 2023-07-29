@@ -1,6 +1,7 @@
 {
-  "name": "vite-plugin-version-mark",
-  "version": "0.0.9",
+  "name": "@censujiang/vite-plugin-version-mark",
+  "version": "0.0.10",
+  "private": false,
   "description": "Automatically insert the version or git_commit_sha in your Vite/Nuxt project.",
   "keywords": [
     "git",
@@ -11,7 +12,7 @@
     "vite",
     "nuxt"
   ],
-  "author": "ZhongxuYang <himatthew@foxmail.com>",
+  "author": "ZhongxuYang <himatthew@foxmail.com>/censujiang <dfjsiou@qq.com>",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -26,9 +27,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZhongxuYang/vite-plugin-version-mark.git"
+    "url": "git+https://github.com/censujiang/vite-plugin-version-mark.git"
   },
-  "homepage": "https://github.com/ZhongxuYang/vite-plugin-version-mark.git",
+  "homepage": "https://github.com/censujiang/vite-plugin-version-mark.git",
   "main": "./dist/vite/index.cjs",
   "module": "./dist/vite/index.js",
   "types": "./dist/vite/index.d.ts",

@@ -1,6 +1,7 @@
 # vite-plugin-version-mark
 
 > Automatically insert the version or git_commit_sha in your Vite/Nuxt project.
+> This release is a separate branch maintained by @censujiang. The original author is @ZhongxuYang. This version is suitable for my own company's work environment, if you want to use this plugin, please consider @ZhongxuYang's master version first.
 
 <div align="center">
   <a href="https://github.com/ZhongxuYang/vite-plugin-version-mark/tree/main">
