@@ -46,7 +46,7 @@ export const vitePluginVersionMark: (options?: VitePluginVersionMarkInput) => Pl
       } = await analyticOptions(options)
 
       if (ifImportMeta === true) {
-        const name = `__${printName}_VERSION__`
+        const name = `__${printName}__`
         const define = defineConstCore({
           [name]: printVersion
         })
