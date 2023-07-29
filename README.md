@@ -1,10 +1,11 @@
-# vite-plugin-version-mark
+# @censujiang/vite-plugin-version-mark
 
 > Automatically insert the version or git_commit_sha in your Vite/Nuxt project.
+
 > This release is a separate branch maintained by @censujiang. The original author is @ZhongxuYang. This version is suitable for my own company's work environment, if you want to use this plugin, please consider @ZhongxuYang's master version first.
 
 <div align="center">
-  <a href="https://github.com/ZhongxuYang/vite-plugin-version-mark/tree/main">
+  <a href="https://github.com/ZhongxuYang/@censujiang/vite-plugin-version-mark/tree/main">
     <img src="./docs/static/logo.svg" width="200px" />
   </a>
 </div>
@@ -28,8 +29,8 @@
 
 ## Install
 ```sh
-yarn add -D vite-plugin-version-mark
-# OR npm install -D vite-plugin-version-mark
+yarn add -D @censujiang/vite-plugin-version-mark
+# OR npm install -D @censujiang/vite-plugin-version-mark
 ```
 
 ## Usage
@@ -37,7 +38,7 @@ yarn add -D vite-plugin-version-mark
 ```ts
 // vite.config.ts
 import {defineConfig} from 'vite'
-import {vitePluginVersionMark} from 'vite-plugin-version-mark'
+import {vitePluginVersionMark} from '@censujiang/vite-plugin-version-mark'
 
 export default defineConfig({
   plugins: [
@@ -61,7 +62,7 @@ export default defineConfig({
 // nuxt.config.ts
 export default defineNuxtConfig({
   modules: [
-    ['vite-plugin-version-mark/nuxt', {
+    ['@censujiang/vite-plugin-version-mark/nuxt', {
       // name: 'test-app',
       // version: '0.0.1',
       // command: 'git describe --tags',
@@ -76,11 +77,11 @@ export default defineNuxtConfig({
 })
 ```
 
-Then you can use `vite-plugin-version-mark` ! 🎉
+Then you can use `@censujiang/vite-plugin-version-mark` ! 🎉
 
 ## Config
 
-`vite-plugin-version-mark` can be print application version in the `Console` or add `<meta>` in HTML element. 
+`@censujiang/vite-plugin-version-mark` can be print application version in the `Console` or add `<meta>` in HTML element. 
 
 | name | description | type | default | supported |
 | --- | --- | --- | --- | --- |
@@ -108,17 +109,17 @@ View [CHANGELOG](./CHANGELOG.md)
 
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/vite-plugin-version-mark/latest.svg?style=flat&colorA=18181B
-[npm-version-href]: https://npmjs.com/package/vite-plugin-version-mark
+[npm-version-src]: https://img.shields.io/npm/v/@censujiang/vite-plugin-version-mark/latest.svg?style=flat&colorA=18181B
+[npm-version-href]: https://npmjs.com/package/@censujiang/vite-plugin-version-mark
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/vite-plugin-version-mark.svg?style=flat&colorA=18181B
-[npm-downloads-href]: https://npmjs.com/package/vite-plugin-version-mark
+[npm-downloads-src]: https://img.shields.io/npm/dm/@censujiang/vite-plugin-version-mark.svg?style=flat&colorA=18181B
+[npm-downloads-href]: https://npmjs.com/package/@censujiang/vite-plugin-version-mark
 
-[types-src]: https://img.shields.io/npm/types/vite-plugin-version-mark.svg?style=flat&colorA=18181B
-[types-href]: https://npmjs.com/package/vite-plugin-version-mark
+[types-src]: https://img.shields.io/npm/types/@censujiang/vite-plugin-version-mark.svg?style=flat&colorA=18181B
+[types-href]: https://npmjs.com/package/@censujiang/vite-plugin-version-mark
 
-[license-src]: https://img.shields.io/npm/l/vite-plugin-version-mark.svg?style=flat&colorA=18181B
-[license-href]: https://npmjs.com/package/vite-plugin-version-mark
+[license-src]: https://img.shields.io/npm/l/@censujiang/vite-plugin-version-mark.svg?style=flat&colorA=18181B
+[license-href]: https://npmjs.com/package/@censujiang/vite-plugin-version-mark
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?&logo=nuxt.js
 [nuxt-href]: https://nuxt.com
